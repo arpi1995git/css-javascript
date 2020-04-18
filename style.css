@@ -1,0 +1,1186 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+  
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background:white;
+    display: flex;
+    justify-content: center
+   
+}
+.marg{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logodiv{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.borderstyle{
+    border:1px solid #e8e9ee;
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+}
+.divstyle{
+    width: 130px;
+    height: 62px;
+    padding-top: 7px;
+}
+.divstylewidth{
+    width: 203px;
+}
+.icons>i{
+    font-size: 26px;
+    color: #ff830a;
+    padding: 11px;
+}
+.logo1{
+    margin-top: 25px;
+}
+.logo2{
+    display: flex
+}
+.padLeft{
+    padding-left: 20px;
+    color:#74757f;
+}
+.logoBtn{
+        height: 50px;
+        width:220px;
+        border:1px solid #ff830a;
+        border-radius:10px;
+        background: white;
+        font-family: "Bebas Neue";
+        font-size:18px;
+        letter-spacing: 2px;
+}
+.logoBtn:hover{
+    background: #ff830a;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #f6f6f6;
+    padding-top: 1px;
+    font-family: Bebas Neue;
+    font-size:18px;
+    color: #74757f; 
+}
+.navigation  {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.navigation li:hover{
+    color: #ff830a;
+    cursor: pointer;
+}
+.bars{
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #122e44;
+    border-radius: 7px;
+    background: #122e44;
+    position: absolute;
+    display: none;
+}
+
+.firstBar{
+    
+    width: 645px;
+    height: 231px;
+    left: 80px;
+   
+}
+.firstBar > li{
+    margin-top: 11px;
+    font-family: 'Martel Sans', 'sans-serif';
+    font-size: 16px;
+    margin-right: 47px;
+    color: darkgreen
+}
+.firstBar > li:hover{
+    color: white;
+    padding-left: 10px;
+}
+.blockdiv1:hover
+    .firstBar{
+        display: flex;
+    }
+.secondBar{
+   
+    width: 267px;
+    height: 124px;
+    left: 407px;
+   
+
+}
+.secondBar > li{
+    margin-top: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 61px;
+    color: darkgreen
+    
+}
+.secondBar > li:hover{
+    color: white;
+    padding-left: 10px;
+}
+.blockdiv2:hover 
+.secondBar{
+    display: flex;
+}
+.tirthBar{
+   
+    width: 367px;
+    height: 149px;
+    left: 524px;
+  
+   
+}
+.tirthBar > li{
+    margin-top: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 61px;
+    color: darkgreen
+    
+
+}
+.tirthBar > li:hover{
+    color: white;
+    padding-left: 10px;
+}
+.blockdiv3:hover 
+.tirthBar{
+    display: flex;
+}
+.fourthBar{
+   
+    width: 668px;
+    height: 319px;
+    left: 450px;   
+}
+.blockdiv4:hover
+.fourthBar{
+    display:flex;
+}
+.fourthBar > li{
+    margin-top: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 61px;
+    color: darkgreen
+}
+.fourthBar > li:hover{
+    color: white;
+  
+}
+.imgdiv{
+    width: 224px;
+    height: 320px;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(megamenu-banner-1-570x380.jpg);
+    margin-left: -41px;
+    margin-top: -12px;
+    border-radius: 7px 0 0 7px;
+    position: relative;
+}
+.findbtn
+{
+    position: absolute;
+    height: 39px;
+    width: 131px;
+    border-radius: 7px;
+    border: none;
+    left: 45px;
+    top: 203px;
+    background:  #ff830a;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    display: none;
+    
+}
+.imgdiv:hover
+.findbtn{
+    display: block;
+    cursor: pointer
+}
+
+.content{
+    width: 100%;
+    height: 500px;   
+    background-position: 50%;
+    background-size: cover;
+    
+}
+.cont{
+    top: 139px;
+    height:auto;
+    width: 40%;
+    margin-left: 104px;
+    padding-top: 10px;
+
+}
+.p1{    
+    font-size: 54px;
+    color: wheat;
+    font-family: 'IBM Plex Serif', 'serif';
+      
+    }
+
+.change{
+    background:#ff830a;
+    color: white;
+}
+.change:hover{
+    background:white;
+    color: #ff830a;
+}
+.content1{
+    width: 100%;
+    height: 200px;
+    background: white;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 33%;
+    border: 1px solid white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.h1{
+   
+    margin: 0 auto;
+}
+.iconplan{
+    font-size: 35px;
+    color: #ff830a;
+    padding-left: 15px;
+}
+.tickets{
+     font-size: 28px;
+    padding-left: 20px;
+}
+.text{
+     width: 80%;
+    height: 150px;
+    margin-left: 85px;
+}
+.content2{
+    width: 100%;
+    height: auto;
+    background:  #f6f6f6;
+}
+.item2{
+    width: 45%;
+    margin: 0 auto;
+    height: auto;
+ 
+}
+button{
+    cursor: pointer;
+}
+h1{text-align: center;
+ font-family: 'Rajdhani', 'sans-serif';}
+
+.besttours{
+    text-align: center
+}
+.item3{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.pictures{
+    width: 350px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.opacitydiv{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.picdiv{
+    width: 75%;
+    height: 232px;
+    border-radius: 10px;
+   
+}
+.picdiv1{
+      background: url(tour-1-270x200.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.picdiv2{
+    background: url(tour-2-270x200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.picdiv3{
+    background: url(tour-3-270x200.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.picdiv4{
+    background: url(tour-4-270x200.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picdiv5{
+    background: url(tour-5-270x200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.picdiv6{
+    background: url(tour-6-270x200.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.picdiv7{
+    background: url(tour-7-270x200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picdiv8{
+    background: url(tour-8-270x200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pictures:hover .opacitydiv{
+    background: rgba(255, 131, 10, 0.35)
+}
+
+.blockP1{
+    float: left;
+    width: 54%;
+    font-size: 20px;
+}
+.blockP2{
+    float: right;
+    width: 39%;
+    font-size: 20px;
+    color: #ff830a;
+    font-weight: bold;
+    
+}
+.btndiv{
+    width: 100%;
+    height: 130px;
+    
+}
+.insidebtn{
+    width: 23%;
+    margin: 0 auto;
+}
+.section1{
+    width: 100%;
+    height: 150px;
+    background: url(parallax-3.jpg);
+    background-position: center;
+}
+.option1{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 55px;
+}
+.optiontext{
+    font-size: 32px;
+    color: white;
+    font-family: 'Rajdhani', 'sans-serif';
+}
+.optionbtn{
+    margin-left: 16px;
+}
+.optionbtn:hover{
+    color:#ff830a;
+    background: white;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.option2{
+    width: 50%;
+    height: 60px;
+    background: white;
+    margin: 0 auto;
+}
+.option3{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    
+}
+.optionblock{
+    margin-left: 33px;
+    width: 350px;
+   margin-right: 39px;
+}
+.topdiv{
+    width: 80%;
+    height: 60px;
+  
+}
+.mandiv{
+   width: 30%;
+    float: left;
+
+}
+.textdiv{
+    width: 70%;
+    float: right;
+    margin-top: -14px;
+}
+.manimg{
+    border-radius: 50%;
+    width: 57px;
+    height: 58px;
+}
+.textP{
+    font-family:  sans-serif;
+     color:#ff830a;
+    font-size: 18px;
+    
+}
+.textP1{
+    font-family: 'Rajdhani', 'sans-serif';
+    color:#aeb1be;
+    margin-top: -10px
+}
+.bottomdiv{
+    width: 80%;
+    height: 200px;
+    
+}
+.bottomP{
+    font-size: 16px;
+    line-height: 1.5;
+     color:#aeb1be
+}
+.section3{
+    width: 100%;
+    height: auto;
+    background: url(parallax-4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.option4{
+    width: 41%;
+    height: auto;   
+    margin:  0 auto;
+    padding-top: 50px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p2{
+    text-align: center;
+    color: white;
+    font-size: 44px;
+}
+.p3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.bookbtn{
+    height: 50px;
+     width:167px;
+    color: white;
+    border:none;
+    border-radius:10px;
+    background: #ff830a;
+    font-family: "Bebas Neue";
+    font-size:18px;
+    letter-spacing: 2px;
+}
+.option5{
+    width: 85%;
+    margin: 0 auto;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.leftdiv{
+    width: 600px;
+    height: 650px;
+  
+}
+.leftimg{
+    width: 557px;
+    height: 351px;
+}
+.leftP{
+    font-family: ' sans-serif';
+    color:#ff830a;
+    font-size: 25px;
+}
+.bydiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+.byspan{
+    width: 27%;
+    border-right: 1px solid black;
+    
+}
+.byspan1{
+    border-left: none;
+    color: #ff830a;
+    width: 27%;
+}
+.popular{
+   
+    width: 100%;
+    height: auto;
+    margin-top: 29px;
+}
+.section4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+}
+.formdiv{
+    width: 958px;
+    background:  #f6f6f6;
+ 
+}
+.mapdiv{
+    width: 700px;
+    
+}
+.insideform{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px
+}
+
+.flexdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nameP{
+     font-size: 14px;
+    color: #aeb1be; 
+}
+.leftflex{
+    width:295px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ifr{
+   width: 700px;
+    height: 650px;
+}
+h2{
+    font-size: 40px;
+}
+
+.tabeinput{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border:1px solid #aeb1be;
+    margin-right: 30px;
+
+}
+.areaspan{
+    font-size: 14px;
+    color: #aeb1be;
+  
+}
+textarea{
+    width: 555px;
+    height: 175px;
+    border-radius: 7px;
+}
+.send{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 59px;
+}
+.messagediv{
+    width: 35%
+}
+.witbtn{
+    width: 173px!important;
+}
+.mrg{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.contacts{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.bord{
+    width: 0;
+    height:auto;
+    border-left: 1px solid #aeb1be;
+}
+.cont1{
+    width: 15%;
+    height: auto;
+   
+}
+
+.icone{
+    margin-left: 93px;
+    font-size: 35px;
+    color: #ff830a;
+}
+.phone{
+    margin-left: 51px;
+}
+.footer{
+    width: 100%;
+    height:auto;
+    color: #aeb1be;
+    background-color: #122e44;
+}
+.H1{
+    font-size: 30px;
+    text-align: left;
+}
+.Galdiv{
+    width: 100%;
+    height: 150px;
+    
+}
+.gallery{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.gal{
+    width: 25%;
+    margin: 5px;
+  
+}
+.gl{
+    width: 81px;
+    height: 58px;
+}
+
+
+.gal:hover .hoverdiv{
+    display: block
+  }
+.footerbar{
+    width: 86%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #aeb1be;
+}
+.bar1{
+    width: 50%;
+    height: 50px;
+   
+}
+.bar2{
+    width: 30%;
+    height: 50px;
+
+   
+}
+.bar3{
+    width: 20%;
+    height: 50px;
+}
+.footerul {
+     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    padding-left: 1px;
+    
+}
+.
+.footerul > li{
+    width: 15%;
+
+}
+.footerul > li:hover{
+    color: white;
+}
+.bar3 > ul li{
+    color:  #aeb1be;
+    cursor: pointer;
+}
+.bar1 > ul li{
+    cursor: pointer;
+}
+.theend{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.leftend{
+    width: 20%;
+}
+.midle{
+    width: 10%
+}
+.rightend{
+    width: 30%;
+    
+}
+
+
+.responsiv-nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: none;
+}
+.resp-btn{
+     width: 7%;
+    height: 60px;
+    border: none;
+    background: white;
+    float: left;
+    
+}
+.bar-btn{
+  
+    width: 90%;
+    height: 60px;
+    border: none;
+    background: white;
+
+}
+.menu{
+    font-size: 30px;
+}
+.responsiv-logo{
+    width: 30%;
+    height: 60px;
+    float: left
+}
+.logoresp{
+    height: 33px;
+    width: 152px;
+    padding-top: 10px;
+}
+.resp-menu
+{
+    width: 30%;
+    height:498px;
+    background: white;
+    position: absolute;
+    box-shadow: 2px 5px 5px #c4c4c4;
+    display: none;
+}
+.resp-ul li {
+    margin-left: -40px;
+    list-style-type: none;
+    width: 100%;
+    height: 33px;
+    padding-left: 36px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+.resp-ul>li :hover {
+    color: darkgreen;
+    cursor: pointer
+}
+.blog-bar{
+    display: none;
+    width: 200px;
+    position: absolute;
+    border: 1px solid #122e44;
+    border-radius: 7px;
+    background: #122e44;
+}
+.blog-bar>li:hover{
+    color: white
+}
+.blogli:hover .blog-bar{
+    display: block
+}
+
+
+
+@media (max-width: 1450px){
+    .option1{
+        width: 60%;
+        height: auto;
+    }
+}
+@media (max-width: 1390px){
+    .option5{
+        width: 90%
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+   .insideform {
+    width: 45%;
+    }
+    .formdiv{
+        width: 100%
+    }
+    .mapdiv{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .ifr{
+        width: 100%
+    }
+   
+   
+}
+@media (max-width: 1190px){
+    .marg {
+        width: 93%;
+    }
+    
+}
+@media (max-width: 1100px){
+    .option1 {
+        width: 68%;
+    }
+    .cont1{
+        width: 24%
+    }
+    .picdiv{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .pictures {
+        height: 400px;
+        width: 329px;}
+  
+    .blockP1{
+        width: 63%;
+    }
+    .blockP2 {
+        width: 15%;
+    }
+    .item{
+        width: 400px;
+        height: auto;
+    }
+    .content1{
+        height: auto;
+    }
+    textarea{
+        margin-left: 28px
+    }
+    
+    .header{display: none}
+    
+    .navbar{display: none}
+    
+    .responsiv-nav{display: block}
+    
+    .cont{
+        width: 60%
+    }
+    .option1{
+        width: 80%
+    }
+    .send{
+        width: 80%
+    }
+    .gal{
+        margin: 15px;
+    }
+    .insideform {
+        width: 65%;
+    }
+    .fourthBar {
+ 
+        width: 419px;
+        left: 400px;
+    }
+    .tirthBar {
+        left: 320px
+    
+    }
+    .secondBar {left: 265px;
+    }
+}
+@media (max-width: 900px){
+   
+    .option4{
+        width: 70%
+    }
+
+}
+@media (max-width: 800px){
+    .item3{
+        width: 100%
+    }
+    .option1{
+        width: 90%
+    }
+   .insideform {
+        width: 75%;
+    }
+    .bar1{
+        width: 600px;
+    }
+    .bar3{
+        width: 300px
+    }
+    .leftend{
+        width: 110px;
+    }
+    .midle{
+        width: 180px;
+    }
+    .rightend{
+        width: 455px
+    }
+    
+}
+@media (max-width: 650px){
+    .logoBtn {
+    height: 56px;
+    width: 176px;
+    }
+    
+    .optiontext {
+        font-size: 23px;
+    }
+    .insideform {
+        width: 92%;
+    }
+    .mrg{
+        margin-top: 0
+        }
+    .cont1{
+        width: 33%
+    }
+
+    .bar3{width: 578px
+
+    }
+    
+    .p1 {
+        font-size: 42px;
+       
+        }
+    .mrg{display: none;}
+    .cont {
+        width: 82%;
+    }
+    .insideform {
+        width: 100%;
+    }
+    .bord{
+        display: none
+    }
+    .cont1{
+        width: 300px;
+        border-bottom:  1px solid #aeb1be;
+    }
+    textarea{
+        width: 460px;
+        margin-left: 50px;
+    }
+    h2{
+        padding-left: 80px
+    }
+    .resp-menu{
+        width: 40%
+    }
+    .leftdiv {
+    width: 489px;
+    }
+    .leftimg {
+        width: 464px;
+        height: 290px;
+    }
+    .areaspan {
+    margin-left: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    .send {
+    width: 98%
+    }
+    textarea {
+    width: 381px;
+    }
+
+    .leftdiv {
+    width: 362px;
+    }
+    .leftimg {
+    width: 377px;
+    height: 216px;
+    }
+    .text{
+        width: 50%
+    }
+    .item{width: 300px}
+
+    .pictures {
+    height: 311px}
+
+}
+@media (max-width: 450px){
+.resp-btn {
+    width: 13%;}
+.resp-menu {
+    width: 100%;}
+.blog-bar{
+    width: 145px
+    }
+.p1{
+    font-size: 31px;
+}
+textarea{
+    width: 305px;
+}
+.Galdiv {
+    width: 67%;
+    margin-left: 53px;
+}
+.bottomdiv{
+    height: auto;
+}
+.theend{
+    height: auto;
+}
+
+}
+@media (max-width: 425px){
+    textarea {
+    width: 259px;}
+
+    .logoBtn{
+        width: 130px!important;
+        height: 45px
+    }
+}
+@media (max-width: 350px){
+   .p1{
+    font-size: 28px;
+    } 
+  .cont{
+    padding-top: 70px
+    }
+  .optiontext {
+    font-size: 19px}
+  .pictures {
+    height: 262px;
+    width: 289px;
+    }
+  .logoBtn {
+    height: 42px;
+    width: 136px;
+    margin-left: -39px;
+    }
+    .leftdiv {
+    width: 278px;
+    }
+  .leftimg {
+    width: 269px;
+    height: 173px;
+    }
+    textarea {
+    width: 238px;
+    height: 90px;
+    margin-left: 20px
+    }
+    .areaspan {
+    margin-left: 18px;
+    }
+  .logoBtn{
+    margin-left: -4px
+    }
+  .mandiv {
+    width: 37%;
+    }
+    .textdiv {
+    width: 62%
+    }
+    .optionblock{
+    margin-left: 88px
+    }
+
+    .Galdiv {
+    width: 55%;
+    margin-left: 43px
+    }
+    .gl {
+    width: 64px;
+    height: 41px;
+    }
+    .footerbar{
+        width: 98%
+    }
+}
